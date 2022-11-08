@@ -1,0 +1,25 @@
+// Load header and style
+
+let header=document.createElement('header');
+fetch('header.html').then(async function(res) {
+	header.innerHTML=await res.text();
+}).catch(function(err) {
+	header.innerHTML=`Error: <code>${err}</code>`
+})
+
+let stylesheet=document.createElement('link');
+stylesheet.rel="stylesheet"
+stylesheet.href="style.css"
+
+
+document.body.prepend(header)
+document.head.appendChild(stylesheet)
+
+
+function toggleTheme() {
+	if (document.body.classList.contains('dark')) {
+		document.body.classList.remove('dark')
+	} else {
+		document.body.classList.add('dark')
+	}
+}

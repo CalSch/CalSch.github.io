@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kanit&display=swap');
+
+* {
+	font-family: 'Kanit', sans-serif;
+	transition: all 0.2s ease;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin-bottom: 400px;
+}
+
+.dark {
+	background-color: rgb(27, 25, 34);
+	color: rgb(255, 251, 244);
+}
+
+.dark a {
+	color: rgb(59, 160, 255);
+}
+.dark a:visited {
+	color: rgb(141, 104, 233);
+}
+
+#theme {
+	position: fixed;
+
+	right: 10px;
+
+	border: none;
+	border-radius: 5px;
+	padding: 4px;
+	padding-bottom: 0px;
+	background-color: rgb(51, 47, 65);
+
+
+	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.535);
+
+	cursor: pointer;
+}
+
+#theme:hover {
+	transform: translate(1px, -2px);
+	box-shadow: 1px 5px 15px rgba(0,0,0,0.4);
+}
+
+.dark #theme {
+	background-color: aliceblue;
+}
+
+.dark #theme #sun {
+	display: inline-block;
+}
+#theme #sun {
+	display: none;
+}
+.dark #moon {
+	display: none;
+}
+
+li:hover {
+	transform: translateX(10px);
+}
