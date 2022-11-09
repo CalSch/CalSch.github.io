@@ -15,8 +15,18 @@ stylesheet.href="style.css"
 document.body.prepend(header)
 document.head.appendChild(stylesheet)
 
+if (localStorage.getItem('theme')=="dark") {
+	document.body.classList.add('dark')
+} else if (!localStorage.getItem('theme')) {
+	localStorage.setItem('theme','light')
+}
 
 function toggleTheme() {
+	if (localStorage.getItem('theme')=="dark") {
+		localStorage.setItem('theme','light')
+	} else {
+		localStorage.setItem('theme','dark')
+	}
 	if (document.body.classList.contains('dark')) {
 		document.body.classList.remove('dark')
 	} else {

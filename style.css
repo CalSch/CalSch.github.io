@@ -11,11 +11,20 @@ html {
 
 body {
 	height: 100%;
-	margin-bottom: 400px;
+	background-image: linear-gradient(168deg, rgba(255,255,255,1) 0%, rgba(0,74,96,1) 100%);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
 }
 
 .dark {
 	background-color: rgb(27, 25, 34);
+	background-image: linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(101, 11, 48) 100%);
 	color: rgb(255, 251, 244);
 }
 
@@ -35,7 +44,8 @@ body {
 	border-radius: 5px;
 	padding: 4px;
 	padding-bottom: 0px;
-	background-color: rgb(51, 47, 65);
+	background-color: rgb(27,25,34);
+	/* background-image: linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(101, 11, 48) 100%); */
 
 
 	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.535);
@@ -50,6 +60,7 @@ body {
 
 .dark #theme {
 	background-color: aliceblue;
+	/* background-image: linear-gradient(168deg, rgba(255,255,255,1) 0%, rgb(73, 116, 129) 100%); */
 }
 
 .dark #theme #sun {
