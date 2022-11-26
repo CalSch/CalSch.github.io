@@ -7,10 +7,10 @@
 
 html {
 	height: 100%;
+	margin: 0px;
 }
 
 body {
-	height: 100%;
 	/* background-image: radial-gradient(black 1px, transparent), linear-gradient(168deg, rgb(233, 233, 233) 0%, rgb(158, 179, 186) 100%);
 	background-repeat: repeat, no-repeat;
 	background-position: 100px 100px, center center;
@@ -23,21 +23,17 @@ body {
 	background: white;
 	background-image: 
 	radial-gradient(rgba(0, 0, 0, 0.2) 2px, transparent 0),
-	linear-gradient(0deg, transparent 9px, rgba(0, 0, 0, 0.137) 10px,transparent 10px),
-	linear-gradient(90deg, transparent 9px, rgba(0, 0, 0, 0.137) 10px,transparent 10px),
 	linear-gradient(0deg,rgb(215, 213, 208),rgb(234, 234, 234));
 	
-	background-size: 20px 20px,20px 20px,20px 20px,cover;
-	background-attachment: scroll, scroll,scroll, fixed;
+	background-size: 20px 20px,cover;
+	background-attachment: scroll, fixed;
 
 }
 
 .dark {
 	background-color: rgb(27, 25, 34);
 	background-image:
-	radial-gradient(rgba(255, 255, 255, 0.2) 2px, transparent 0),
-	linear-gradient(0deg, transparent 9px, rgba(255, 255, 255, 0.137) 10px,transparent 10px),
-	linear-gradient(90deg, transparent 9px, rgba(255, 255, 255, 0.137) 10px,transparent 10px),
+	radial-gradient(rgba(255, 255, 255, 0.1) 2px, transparent 0),
 	linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(60, 7, 29) 100%);
 	color: rgb(255, 251, 244);
 }
@@ -68,7 +64,7 @@ body {
 }
 
 #theme:hover {
-	transform: translate(1px, -2px);
+	transform: scale(1.2);
 	box-shadow: 1px 5px 15px rgba(0,0,0,0.4);
 }
 
@@ -85,6 +81,10 @@ body {
 }
 .dark #moon {
 	display: none;
+}
+
+h1,p,li {
+	text-shadow: 1px 1px 20px black;
 }
 
 li:hover {
