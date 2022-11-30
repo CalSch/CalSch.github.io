@@ -33,3 +33,12 @@ function toggleTheme() {
 		document.body.classList.add('dark')
 	}
 }
+
+window.onload=()=>{
+	setTimeout(()=>{
+		document.getElementById('loader').classList.add('hide')
+	},500)
+	setTimeout(()=>{
+		document.getElementById('loader').remove()
+	},1000)	
+}

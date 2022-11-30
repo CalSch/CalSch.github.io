@@ -5,8 +5,49 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CalSch</title>
+
+	<style>
+		#loader {
+			position: fixed;
+			top:0;
+			left:0;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+		}
+		#loader .spinner {
+			margin: auto;
+			display: block;
+			position: relative;
+			top: calc(50% - 200px);
+			width: 200px;
+			height: 200px;
+			padding: 50px;
+			border: 20px solid white;
+			border-radius: 50%;
+			border-bottom: 20px solid transparent;
+
+			animation: spin 1s linear infinite;
+		}
+
+		#loader.hide {
+			opacity: 0;
+		}
+
+		@keyframes spin {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+	</style>
 </head>
 <body>
+	<div id="loader">
+		<div class="spinner"></div>
+	</div>
 	<h1>Hello</h1>
 	<p>umm stuff idk</p>
 	<p>Projects:</p>
