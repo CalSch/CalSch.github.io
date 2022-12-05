@@ -13,7 +13,7 @@ stylesheet.href="style.css"
 
 
 document.body.prepend(header)
-document.head.appendChild(stylesheet)
+// document.head.appendChild(stylesheet)
 
 if (localStorage.getItem('theme')=="dark") {
 	document.body.classList.add('dark')
