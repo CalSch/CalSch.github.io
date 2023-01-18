@@ -7,13 +7,7 @@ fetch('header.html').then(async function(res) {
 	header.innerHTML=`Error: <code>${err}</code>`
 })
 
-let stylesheet=document.createElement('link');
-stylesheet.rel="stylesheet"
-stylesheet.href="style.css"
-
-
 document.body.prepend(header)
-// document.head.appendChild(stylesheet)
 
 if (localStorage.getItem('theme')=="dark") {
 	document.body.classList.add('dark')

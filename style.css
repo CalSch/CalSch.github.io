@@ -1,4 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kanit&display=swap');
+* {
+	font-family: monospace;
+}
+
+#theme {
+	position: fixed;
+
+	right: 10px;
+
+	border: none;
+	border-radius: 5px;
+	padding: 4px;
+	padding-bottom: 0px;
+	background-color: rgb(27,25,34);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+
+	cursor: pointer;
+}
+
+
+.dark #theme {
+	background-color: aliceblue;
+}
+
+.dark #theme #sun {
+	display: inline-block;
+}
+#theme #sun {
+	display: none;
+}
+.dark #moon {
+	display: none;
+}
+
+.dark {
+	background-color: rgb(27, 27, 27);
+	color: white;
+}
+
+.dark a {
+	color: rgb(59, 160, 255);
+}
+.dark a:visited {
+	color: rgb(141, 104, 233);
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kanit&display=swap');
 
 * {
 	font-family: 'Kanit', sans-serif;
@@ -18,7 +65,7 @@ body {
 	-webkit-background-size: 1000px 1000px, cover;
 	-moz-background-size:    1000px 1000px, cover;
 	-o-background-size:      1000px 1000px, cover;
-	background-size:         1000px 1000px, cover; */
+	background-size:         1000px 1000px, cover;
 
 	background: white;
 	background-image: 
@@ -38,13 +85,6 @@ body {
 	color: rgb(255, 251, 244);
 }
 
-.dark a {
-	color: rgb(59, 160, 255);
-}
-.dark a:visited {
-	color: rgb(141, 104, 233);
-}
-
 #theme {
 	position: fixed;
 
@@ -55,7 +95,7 @@ body {
 	padding: 4px;
 	padding-bottom: 0px;
 	background-color: rgb(27,25,34);
-	/* background-image: linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(101, 11, 48) 100%); */
+	/* background-image: linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(101, 11, 48) 100%);
 
 
 	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.535);
@@ -70,7 +110,7 @@ body {
 
 .dark #theme {
 	background-color: aliceblue;
-	/* background-image: linear-gradient(168deg, rgba(255,255,255,1) 0%, rgb(73, 116, 129) 100%); */
+	/* background-image: linear-gradient(168deg, rgba(255,255,255,1) 0%, rgb(73, 116, 129) 100%);
 }
 
 .dark #theme #sun {
@@ -92,4 +132,4 @@ body {
 
 li:hover {
 	transform: translateX(10px);
-}
+} */
