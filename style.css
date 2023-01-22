@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body {
+	font-size: 10pt;
+}
 * {
-	font-family: monospace;
+	font-family: 'Noto Sans Mono', monospace;
 }
 
 #theme {
@@ -41,7 +46,11 @@
 	color: rgb(59, 160, 255);
 }
 .dark a:visited {
-	color: rgb(141, 104, 233);
+	color: rgb(155, 124, 235);
+}
+
+li {
+	padding-top: 1px;
 }
 
 
