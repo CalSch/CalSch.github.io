@@ -50,7 +50,8 @@ body {
 }
 
 li {
-	padding-top: 1px;
+	padding: 1px 0;
+	margin: 2px 0;
 }
 
 
