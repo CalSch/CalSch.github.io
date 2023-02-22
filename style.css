@@ -54,7 +54,9 @@ li {
 	margin: 2px 0;
 }
 
-
+hr {
+	background-color: lightgrey;
+}
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kanit&display=swap');
 
 * {

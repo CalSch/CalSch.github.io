@@ -13,6 +13,7 @@ if (localStorage.getItem('theme')=="dark") {
 	document.body.classList.add('dark')
 } else if (!localStorage.getItem('theme')) {
 	localStorage.setItem('theme','light')
+	toggleTheme();
 }
 
 function toggleTheme() {
