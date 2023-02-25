@@ -1,0 +1,12 @@
+vim
+neovim
+wget
+curl
+tmux
+python3
+build-essential
+git
+figlet
+lolcat
+cmatrix
+cowsay
