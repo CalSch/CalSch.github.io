@@ -1,7 +1,7 @@
 // Load header and style
 
 let header=document.createElement('header');
-fetch('header.html').then(async function(res) {
+fetch('/header.html').then(async function(res) {
 	header.innerHTML=await res.text();
 }).catch(function(err) {
 	header.innerHTML=`Error: <code>${err}</code>`
