@@ -10,3 +10,4 @@ figlet
 lolcat
 cmatrix
 cowsay
+httpie
