@@ -57,7 +57,20 @@ li {
 hr {
 	background-color: lightgrey;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kanit&display=swap');
+
+code {
+	background-color: rgba(59, 59, 59, 0.925);
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+}
+
+
+/*
+
+OLD CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kanit&display=swap');
 
 * {
 	font-family: 'Kanit', sans-serif;
