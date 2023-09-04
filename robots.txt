@@ -1,0 +1,5 @@
+# Dont let OpenAI crawl this site
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: GPTBot
+Disallow: /
