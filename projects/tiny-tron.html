@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Cal Schwick's website">
+
+	<title>Cal Schwick | Tiny Tron</title>
+
+	<link rel="stylesheet" href="/style.css">
+	<link rel="shortcut icon" href="/logo.png" type="image/png">
+
+	<!-- test -->
+</head>
+<body>
+	<a href="../index.html">Home</a>
+    <hr>
+
+    <h1>Tiny Tron</h1>
+
+    <a href="https://github.com/CalSch/c64-tiny" target="_blank">
+        <img src="../github-icon.png" alt="GitHub Icon" height="18">
+        CalSch/c64-tiny
+    </a>
+
+    <p>
+        This is a Commodore 64 Tron port I made for <a href="https://saycheese.hackclub.com">Hackclub Say Cheese</a>,
+        a challenge where you have to make a program that fits into a QR code. 
+    </p>
+    <p>
+        To play, you load the file as a disk into a Commodore 64 (or an emulator) and press space to start.
+        Player 1 starts on the left and uses WASD to move, and player 2 starts on the right and uses IJKL to move.
+        When someone loses, the game over screen shows who won and what the score is.
+    </p>
+
+    <hr>
+    <h2>Download</h2>
+
+    <summary>
+        <p>Here's the QR code: (it's big so I hid it by default)</p>
+        <details>
+            <img src="../stuff/tron-qr.png" height="555" alt="The QR code">
+        </details>
+    </summary>
+    <p>And if you're lazy, here's the binary that's encoded in the QR code:</p>
+    <a href="tron.bin" download="true">tron.bin</a>
+
+    <hr>
+    <h2>Screenshots</h2>
+    
+    <img src="../stuff/tron-screenshot-1.png" width="350" alt="A screenshot of the game">
+    <img src="../stuff/tron-screenshot-2.png" width="350" alt="A screenshot of the gameover screen">
+
+    <hr>
+    <h2>About</h2>
+
+    <p>
+        The main challenge of fitting a program in a QR code is that the maximum amount of data one can handle is only 2953 bytes.
+        To put that into perspective, here are some comparisons:
+        <ul>
+            <li>A typical 24 megapixel image would be ~12MB when using JPEG compression. This would fit in a mere 4,064 QR codes</li>
+            <li>A Windows install ISO (~4.5GB) would fit in 1,523,874 QR codes</li>
+        </ul>
+        It's written in C, compiled by cc65, and uses no external libraries, as they use too much space.
+        It used to be a lot cooler, but then I realized that I can't just put the bytes into the QR code, it needs to be a URL. 
+        You can put a file into a QR code by using a data URL and putting the binary data in it with base64 encoding. This made the size limit even lower, down to 2193 bytes.
+        Because of this, I ended up removing most of the cool things like the title screen and making a lot of optimizations.
+    </p>
+
+	<script src="../script.js"></script>
+</body>
+</html>
