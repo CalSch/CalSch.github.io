@@ -18,6 +18,7 @@ I got stuff:
 8. [Tiny Tron](projects/tiny-tron)
 9. [6502 PASM (6502 Portable Assembler)](https://calschwick.net/6502pasm/)
 10. [cardcalc, an RPN calculator for the M5Stack Cardputer](https://calschwick.net/cardcalc/)
+10. [Real WEBP](projects/real-webp)
 
 ## Web Tools
 1. [JS image maker](https://calschwick.net/image-maker/)
