@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/stuff/thing1/</loc>
+    <loc>https://calschwick.net/stuff/thing1/</loc>
     <lastmod>2025-05-25T11:51:38+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://calschwick.net/</loc>
     <lastmod>2025-05-25T11:51:38+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/stuff/</loc>
+    <loc>https://calschwick.net/stuff/</loc>
     <lastmod>2025-05-25T11:51:38+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/autochroot/</loc>
+    <loc>https://calschwick.net/projects/autochroot/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://calschwick.net/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/confetti/</loc>
+    <loc>https://calschwick.net/projects/confetti/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/graphing/</loc>
+    <loc>https://calschwick.net/projects/graphing/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://calschwick.net/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://calschwick.net/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/tiny-tron/</loc>
+    <loc>https://calschwick.net/projects/tiny-tron/</loc>
   </url>
 </urlset>

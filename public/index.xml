@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Calvin Schwickerath</title>
-    <link>http://localhost:1313/</link>
+    <link>https://calschwick.net/</link>
     <description>Recent content in Home on Calvin Schwickerath</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 May 2025 11:51:38 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://calschwick.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A</title>
-      <link>http://localhost:1313/stuff/thing1/</link>
+      <link>https://calschwick.net/stuff/thing1/</link>
       <pubDate>Sun, 25 May 2025 11:51:38 +0000</pubDate>
-      <guid>http://localhost:1313/stuff/thing1/</guid>
+      <guid>https://calschwick.net/stuff/thing1/</guid>
       <description>&lt;h1 id=&#34;a&#34;&gt;A&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Autochroot</title>
-      <link>http://localhost:1313/projects/autochroot/</link>
+      <link>https://calschwick.net/projects/autochroot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/autochroot/</guid>
+      <guid>https://calschwick.net/projects/autochroot/</guid>
       <description>&lt;p&gt;Autochroot is an old project I made in either 2021 or 2022 that automatically makes a &lt;a href=&#34;https://wiki.archlinux.org/title/Chroot&#34;&gt;chroot&lt;/a&gt; environment with the selected binaries and their dependencies (using &lt;code&gt;ldd&lt;/code&gt;)&lt;br&gt;&#xA;It probably shouldn&amp;rsquo;t be used. There were many problems, like /proc, /sys and other directories not showing up. I had (and still have) very little knowledge on chroots.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;GitHub: &lt;a href=&#34;https://github.com/CalSch/autochroot&#34;&gt;CalSch/autochroot&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Confetti</title>
-      <link>http://localhost:1313/projects/confetti/</link>
+      <link>https://calschwick.net/projects/confetti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/confetti/</guid>
+      <guid>https://calschwick.net/projects/confetti/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s a C++ program that makes confetti pop up on your screen. I don&amp;rsquo;t have a video of it because I&amp;rsquo;m lazy.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;GitHub: &lt;a href=&#34;https://github.com/CalSch/confetti&#34;&gt;CalSch/confetti&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Graphing Calculator</title>
-      <link>http://localhost:1313/projects/graphing/</link>
+      <link>https://calschwick.net/projects/graphing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/graphing/</guid>
-      <description>&lt;p&gt;I made a graphing calculator in C++ using &lt;a href=&#34;https://raylib.com&#34;&gt;raylib&lt;/a&gt; and &lt;a href=&#34;https://github.com/Blake-Madden/tinyexpr-plusplus&#34;&gt;tinyexpr++&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It has a grid with labels, colors, variables, and basic saving and loading, but&#xA;it leaves lots to be desired, like a color picker, polar graphs, points, implicit equations, variable sliders, and custom functions.&#xA;&lt;img src=&#34;http://localhost:1313/img/graphing-demo.gif&#34; alt=&#34;Demo gif&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;GitHub: &lt;a href=&#34;https://github.com/CalSch/graphing&#34;&gt;CalSch/graphing&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://calschwick.net/projects/graphing/</guid>
+      <description>&lt;p&gt;I made a graphing calculator in C++ using &lt;a href=&#34;https://raylib.com&#34;&gt;raylib&lt;/a&gt; and &lt;a href=&#34;https://github.com/Blake-Madden/tinyexpr-plusplus&#34;&gt;tinyexpr++&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It has a grid with labels, colors, variables, and basic saving and loading, but&#xA;it leaves lots to be desired, like a color picker, polar graphs, points, implicit equations, variable sliders, and custom functions.&#xA;&lt;img src=&#34;https://calschwick.net/img/graphing-demo.gif&#34; alt=&#34;Demo gif&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;GitHub: &lt;a href=&#34;https://github.com/CalSch/graphing&#34;&gt;CalSch/graphing&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tiny Tron</title>
-      <link>http://localhost:1313/projects/tiny-tron/</link>
+      <link>https://calschwick.net/projects/tiny-tron/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/tiny-tron/</guid>
+      <guid>https://calschwick.net/projects/tiny-tron/</guid>
       <description>&lt;p&gt;This is a Commodore 64 Tron port I made for &lt;a href=&#34;https://saycheese.hackclub.com/&#34;&gt;Hackclub Say Cheese&lt;/a&gt;, a challenge where you have to make a program that fits into a QR code.&lt;/p&gt;&#xA;&lt;p&gt;To play, you load the file as a disk into a Commodore 64 (or an emulator) and press space to start. Player 1 starts on the left and uses WASD to move, and player 2 starts on the right and uses IJKL to move. When someone loses, the game over screen shows who won and what the score is.&lt;/p&gt;</description>
     </item>
   </channel>
