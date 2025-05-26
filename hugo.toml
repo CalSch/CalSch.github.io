@@ -1,0 +1,18 @@
+baseURL = 'https://calschwick.net/'
+languageCode = 'en-us'
+title = 'Calvin Schwickerath'
+theme = 'terminal'
+
+# [menu]
+#     [[menu.main]]
+#         identifier = 'thingy'
+#         name = 'Thingy'
+#         url = '/stuff/thing1'
+
+[params]
+    # showMenuItems = 8
+    centerTheme = true
+    [params.logo]
+        logoText = 'Calvin Schwickerath'
+    [params.meta]
+        favicon = true
