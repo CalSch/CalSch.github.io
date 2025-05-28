@@ -20,6 +20,7 @@ I got stuff:
 10. [cardcalc, an RPN calculator for the M5Stack Cardputer](https://calschwick.net/cardcalc/)
 10. [Real WEBP](projects/real-webp)
 10. [Fan-C](projects/fan-c)
+10. [Terminal Cube](projects/term-cube)
 
 ## Web Tools
 1. [JS image maker](https://calschwick.net/image-maker/)
