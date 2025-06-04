@@ -31,6 +31,9 @@ I got stuff:
 - [Spirograph thing](https://calschwick.net/spirograph/)
 - [Euler's Spiral](https://calschwick.net/eulers-spiral/)
 
+## Other Pages
+- [Ideas](ideas)
+
 ## Links
 - [GitHub](https://github.com/CalSch)
 
