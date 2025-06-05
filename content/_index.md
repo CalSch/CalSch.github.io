@@ -22,6 +22,7 @@ I got stuff:
 10. [Fan-C](projects/fan-c)
 10. [Terminal Cube](projects/term-cube)
 11. [Web Shaderer (help needed)](https://github.com/CalSch/web-shaderer)
+1. [Terminal file explorer](projects/explorer)
 
 ## Web Tools
 1. [JS image maker](https://calschwick.net/image-maker/)
