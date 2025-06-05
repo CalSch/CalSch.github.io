@@ -6,7 +6,7 @@ title='Home'
 
 I got stuff:
 
-## Projects
+## Projects (kinda sorted old -> new)
 1. [Old bad raytracing with JavaScript](https://calschwick.net/raytracing-web/)
 2. [Number of the day (doesn't work bc of CORS, so sad)](https://calschwick.net/notd/)
 3. [Psychedelics](https://calschwick.net/psychedelics/)
@@ -14,15 +14,17 @@ I got stuff:
 5. [Raytracing in JS but better](https://calschwick.net/new-raytracing/)
 1. [Autochroot](projects/autochroot)
 6. [Graphing calculator](projects/graphing)
+1. [Terminal file explorer](projects/explorer)
+10. [Terminal Cube](projects/term-cube)
 7. [Confetti](projects/confetti)
-8. [Tiny Tron](projects/tiny-tron)
 9. [6502 PASM (6502 Portable Assembler)](https://calschwick.net/6502pasm/)
 10. [cardcalc, an RPN calculator for the M5Stack Cardputer](https://calschwick.net/cardcalc/)
-10. [Real WEBP](projects/real-webp)
 10. [Fan-C](projects/fan-c)
-10. [Terminal Cube](projects/term-cube)
-11. [Web Shaderer (help needed)](https://github.com/CalSch/web-shaderer)
-1. [Terminal file explorer](projects/explorer)
+10. [Real WEBP](projects/real-webp)
+8. [Tiny Tron](projects/tiny-tron)
+11. [Web Shaderer (help needed maybe)](https://github.com/CalSch/web-shaderer)
+
+## Weird experiments
 1. [Zippatron](projects/zippatron)
 
 ## Web Tools
