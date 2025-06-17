@@ -24,5 +24,6 @@ Free ideas for you, make them real:
 1. Reverse regex, you input a regex and it outputs all of the possible matches
     - ex. in: `/(a|b){3}/`, out: `aaa, aab, aba, abb, baa, bab, bba, bbb`
     - how do you deal with `*` or `+`? maybe have a limit
+1. Game where you interact with the world by dragging the window around or by resizing it.
 
 also if these already exist or you have made one, please let me know (i wont take them off this page or anything, i just want to see them)
