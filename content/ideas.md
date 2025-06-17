@@ -21,5 +21,8 @@ Free ideas for you, make them real:
         - oscilloscope viewer
         - another function that gets run once a frame or one that gets triggered by a button (so you can make randomly generated chords)
     - maybe something that inputs a sound and outputs another to you can make custom sound effects
+1. Reverse regex, you input a regex and it outputs all of the possible matches
+    - ex. in: `/(a|b){3}/`, out: `aaa, aab, aba, abb, baa, bab, bba, bbb`
+    - how do you deal with `*` or `+`? maybe have a limit
 
 also if these already exist or you have made one, please let me know (i wont take them off this page or anything, i just want to see them)
