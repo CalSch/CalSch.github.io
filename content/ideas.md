@@ -25,5 +25,6 @@ Free ideas for you, make them real:
     - ex. in: `/(a|b){3}/`, out: `aaa, aab, aba, abb, baa, bab, bba, bbb`
     - how do you deal with `*` or `+`? maybe have a limit
 1. Game where you interact with the world by dragging the window around or by resizing it.
+1. AI C compiler. A neural network that inputs characters and outputs assembly.
 
 also if these already exist or you have made one, please let me know (i wont take them off this page or anything, i just want to see them)
