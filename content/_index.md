@@ -23,6 +23,7 @@ I got stuff:
 10. [Real WEBP](projects/real-webp)
 8. [Tiny Tron](projects/tiny-tron)
 11. [Web Shaderer (help needed maybe)](https://github.com/CalSch/web-shaderer)
+11. [CFS](projects/cfs)
 
 ## Weird experiments
 1. [Zippatron](projects/zippatron)
