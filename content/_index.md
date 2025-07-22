@@ -22,8 +22,8 @@ I got stuff:
 10. [Fan-C](projects/fan-c)
 10. [Real WEBP](projects/real-webp)
 8. [Tiny Tron](projects/tiny-tron)
-11. [Web Shaderer (help needed maybe)](https://github.com/CalSch/web-shaderer)
-11. [CFS](projects/cfs)
+11. [Web Shaderer](https://github.com/CalSch/web-shaderer)
+11. [CFS (cool file system)](projects/cfs)
 
 ## Weird experiments
 1. [Zippatron](projects/zippatron)
