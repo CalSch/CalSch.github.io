@@ -38,6 +38,7 @@ I got stuff:
 - [Euler's Spiral](https://calschwick.net/eulers-spiral/)
 
 ## Other Pages
+- [Config](config)
 - [Ideas](ideas)
 
 ## Links
