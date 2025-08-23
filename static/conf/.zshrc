@@ -25,7 +25,7 @@ fi
 #neofetch #--ascii_distro arch
 PF_INFO="ascii title os host kernel uptime memory" pfetch
 
-[[ type kitten > /dev/null ]] && alias ssh="kitten ssh"
+type kitten > /dev/null && alias ssh="kitten ssh"
 alias yay="yay --color=auto"
 alias grep="grep --color=auto"
 alias ip="ip -color"
