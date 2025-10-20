@@ -45,4 +45,4 @@ I got stuff:
 - [GitHub](https://github.com/CalSch)
 
 ## Contact
-- Email: calschwick@calschwick.net
+- Email: him@calschwick.net
