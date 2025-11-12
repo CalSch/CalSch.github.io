@@ -2,7 +2,7 @@
 title='Home'
 +++
 
-Free ideas for you, make them real:
+Free ideas for you. Make them real:
 
 1. a maze game that uses wave function collapse to procedurally generate the maze, but anything that you can't see (ie. outside the screen or outside a field of view) gets regenerated 
 1. a raytracer that logs everything about the image
