@@ -1,8 +1,11 @@
 set number
 set cursorline
 syntax on
+
+set termguicolors
 colorscheme slate
 colorscheme wildcharm
+
 
 set shiftwidth=4
 set tabstop=4
@@ -16,35 +19,42 @@ map <A-Up> ddkP
 imap <A-Up> <Esc>ddkPi
 map <A-Down> ddjP
 imap <A-Down> <Esc>ddjPi
-map <A-r> :source ~/.vimrc<CR>
 
 imap <C-Backspace> <C-w>
+imap <C-Space> <C-X><C-O>
 
-command Reload so /home/calvin/.vimrc
+nmap K :execute 'Man' expand('<cword>')<CR>
 
-" comments
-" augroup comment_like_a_boss
-    " autocmd!
-    " autocmd FileType c,cpp,go,json           let b:comment_leader = '// '
-    " autocmd FileType ruby,python             let b:comment_leader = '# '
-    " autocmd FileType conf,fstab,sh,bash,tmux let b:comment_leader = '# '
-    " autocmd FileType tex                     let b:comment_leader = '% '
-    " autocmd FileType mail                    let b:comment_leader = '> '
-    " autocmd FileType vim                     let b:comment_leader = '" '
-" augroup END
-" noremap <silent> <C-/> :<C-b>silent <C-e>norm ^i<C-r>=b:comment_leader<CR><CR>
-" noremap <silent> <A-/> :<C-b>silent <C-e>norm ^xx<CR>
+nmap <Tab> :tabnext<CR>
+nmap <S-Tab> :tabprevious<CR>
 
-call plug#begin()
+imap <C-V> <Esc>pi
 
-Plug 'tpope/vim-sleuth'
-Plug 'tpope/vim-sensible'
-Plug 'tpope/vim-commentary'
+command Reload so ~/.vimrc
+command TemplateC r ~/tmpl/main.c
 
-call plug#end()
+if filereadable($HOME.'/.vim/autoload/plug.vim')
+    let g:clang_library_path='/usr/lib/libclang.so'
+    
+    call plug#begin()
+
+    Plug 'tpope/vim-sleuth'
+    Plug 'tpope/vim-sensible'
+    Plug 'tpope/vim-commentary'
+    Plug 'KabbAmine/vCoolor.vim'
+    Plug 'obcat/vim-sclow'
+    Plug 'mnishz/colorscheme-preview.vim'
+    Plug 'rainglow/vim'
+    Plug 'xavierd/clang_complete'
+
+    call plug#end()
+
+    colorscheme fodder-contrast
+endif
 
 map <C-/> gcc
 imap <C-/> <Esc>gcci
 vmap <C-/> gc
+
 
 " autocmd FileType markdown setlocal spell spelllang=en_us
