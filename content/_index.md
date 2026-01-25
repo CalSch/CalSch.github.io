@@ -24,6 +24,7 @@ I got stuff:
 8. [Tiny Tron](projects/tiny-tron)
 11. [Web Shaderer](https://github.com/CalSch/web-shaderer)
 11. [CFS (cool file system)](projects/cfs)
+11. [goo (stack based language)](projects/goo)
 
 ## Weird experiments
 1. [Zippatron](projects/zippatron)
