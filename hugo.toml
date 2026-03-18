@@ -2,6 +2,15 @@ baseURL = 'https://calschwick.net/'
 languageCode = 'en-us'
 title = 'Calvin Schwickerath'
 theme = 'terminal'
+# Source - https://stackoverflow.com/a/63206852
+
+# Posted by n m, modified by community. See post 'Timeline' for change history
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 
 # [menu]
 #     [[menu.main]]

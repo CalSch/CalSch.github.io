@@ -1,15 +1,45 @@
 /* Fira Code: https://github.com/tonsky/FiraCode */
-@import url('https://cdn.staticdelivr.com/gfonts/css2?family=Fira+Code:wght@300..700&display=swap');
+/* @import url('https://cdn.staticdelivr.com/gfonts/css2?family=Fira+Code:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@font-face {
+  font-family: OLDSH;
+  src: url(/OLDSH.TTF);
+}
+@font-face {
+  font-family: Charcoal;
+  src: url(/CHARCOAL.TTF);
+}
+
+.logo {
+  font-family: Charcoal, OLDSH, sans-serif;
+  font-size: larger;
+}
 
 :root {
-  --background: #15191a;
-  --foreground: #ebdbb2;
-  --accent: #98c787;
-  --radius: 0;
-  --font-size: 1.1rem;
-  --line-height: 1.54em;
+  /* --background: #15191a;
+  --foreground: #ebdbb2; */
+  --backerground: rgb(152, 130, 239);
+  --background: #fef9ff;
+  --foreground: #3b2b03;
+  --accent: #4a3476;
+  --radius: 2px;
+  --font-size: 1.25rem;
+  --line-height: 1.4em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --backerground: rgb(6, 2, 25);
+    --background: #1a062c;
+    --foreground: #ede4cd;
+    --accent: #d098d9;
+  }
+  body {
+    font-weight: 400 !important;
+  }
 }
 
 html {
@@ -26,9 +56,13 @@ html {
 
 body {
   font-family:
-    "Adwaita Sans",
+  "Crimson Pro",
+  Ramillas,
+  OLDSH,
+    "Times";
+    /* "Adwaita Sans",
     "Inter",
-    sans-serif;
+    sans-serif; */
     /* "Fira Code",
     "JetBrains Mono",
     Monaco,
@@ -36,17 +70,25 @@ body {
      "Ubuntu Mono",
     monospace; */
   font-size: var(--font-size);
-  font-weight: 400;
+  font-weight: 500;
   line-height: var(--line-height);
-  background-color: var(--background);
+  background-color: var(--backerground);
   color: var(--foreground);
   text-rendering: optimizeLegibility;
   font-variant-ligatures: contextual;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   margin: 0;
-  padding: 0;
+  padding: 20px;
 }
+
+/* main content container */
+body > .container.center {
+  background-color: var(--background);
+  border: 8px double var(--accent);
+  box-shadow: rgba(0,0,0,.324) 5px 5px 25px;
+}
+
 
 h1 {
   font-size: calc(var(--font-size) * 1.45);
@@ -74,7 +116,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol,
 img, figure, video,
 table {
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 a {
@@ -255,19 +297,13 @@ ol li {
 
 code,
 kbd {
-  font-family:
-    "Fira Code",
-    "JetBrains Mono",
-    Monaco,
-    Consolas,
-    Ubuntu Mono,
-    monospace !important;
+  font-family: monospace !important;
   font-feature-settings: normal;
   background: color-mix(in srgb, var(--foreground) 5%, transparent);
   color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
   padding: 0 6px;
   margin: 0 2px;
-  font-size: 0.95em;
+  font-size: 0.85em;
 }
 
 code {
@@ -293,7 +329,7 @@ pre {
   background: color-mix(in srgb, var(--foreground) 5%, transparent) !important;
   color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
   padding: 20px 10px;
-  font-size: 0.95em !important;
+  font-size: 0.85em !important;
   overflow: auto;
   border-radius: var(--radius);
   border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
