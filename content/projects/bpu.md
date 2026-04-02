@@ -28,6 +28,6 @@ Do you know what this means? I don't anymore, I'm writing this 6 months after I 
 To end this off, here is the amazing way that I convert a hexadecimal digit into a number in geonodes: (this was before "String to Value" was a thing)
 ![a terrible mess of nodes](https://raw.githubusercontent.com/CalSch/bpu/refs/heads/main/stuff/manynoodles.png)
 
-You'll never guess how I check if a number is even.
+On a similar note, it would've saved so much time if Blender had an "Is Even" node so I wouldn't have to make my own...
 
 Anyways, here's the source i guess: [CalSch/bpu](https://github.com/CalSch/bpu)
