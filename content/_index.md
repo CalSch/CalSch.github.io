@@ -25,6 +25,7 @@ I got stuff:
 11. [Web Shaderer](https://github.com/CalSch/web-shaderer)
 11. [CFS (cool file system)](projects/cfs)
 11. [goo (stack based language)](projects/goo)
+67. [BPU (CPU in Blender geonodes)](projects/bpu)
 
 ## Weird experiments
 1. [Zippatron](projects/zippatron)
