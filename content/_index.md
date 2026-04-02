@@ -45,6 +45,7 @@ I got stuff:
 
 ## Links
 - [GitHub](https://github.com/CalSch)
+- Gopher server: gopher.calschwick.net
 
 ## Contact
 - Email: him@calschwick.net
