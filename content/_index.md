@@ -38,6 +38,7 @@ I got stuff:
 ## Art stuff
 - [Spirograph thing](https://calschwick.net/spirograph/)
 - [Euler's Spiral](https://calschwick.net/eulers-spiral/)
+- [Pictures I've taken](https://home.calschwick.net/cdn/picters/)
 
 ## Other Pages
 - [Config](config)
