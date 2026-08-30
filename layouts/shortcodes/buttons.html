@@ -1,0 +1,7 @@
+<div style="width:70%;margin:10px auto;">
+{{ range readDir "static/gifs" }}
+  {{ if strings.HasSuffix .Name ".gif" }}
+  <img src="/gifs/{{ .Name }}" alt="{{ .Name }}" style="border:none;display:inline;margin:0;padding:0">
+  {{ end }}
+{{ end }}
+</div>

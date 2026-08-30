@@ -27,9 +27,6 @@ I got stuff:
 11. [goo (stack based language)](projects/goo)
 67. [BPU (CPU in Blender geonodes)](projects/bpu)
 
-## Art
-- [cool pictures](https://home.calschwick.net/stuff/picters/)
-
 ## Weird experiments
 1. [Zippatron](projects/zippatron)
 
@@ -41,7 +38,7 @@ I got stuff:
 ## Art and code stuff
 - [Spirograph thing](https://calschwick.net/spirograph/)
 - [Euler's Spiral](https://calschwick.net/eulers-spiral/)
-- [Pictures I've taken](https://home.calschwick.net/picters/)
+- [Pictures I've taken](https://home.calschwick.net/picters/) << **this is cool look at this**
 
 ## Other Pages
 - [Config](config)
@@ -56,3 +53,7 @@ I got stuff:
 
 ## Contact
 - Email: him@calschwick.net
+
+---
+
+{{< buttons >}}
