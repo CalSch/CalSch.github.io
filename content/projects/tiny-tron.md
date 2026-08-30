@@ -1,5 +1,4 @@
 +++
-#date='2025-05-25T21:41:33'
 draft=false
 title='Tiny Tron'
 +++
