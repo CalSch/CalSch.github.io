@@ -1,5 +1,6 @@
 +++
 title="how to prevent all malware forever (this is a lie)"
+date="2026-08-30"
 +++
 
 so theres malware in the aur. who could've guessed? certainly not myself.

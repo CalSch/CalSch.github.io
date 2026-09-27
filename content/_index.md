@@ -43,6 +43,7 @@ I got stuff:
 ## Other Pages
 - [Config](config)
 - [Ideas](ideas)
+- [who are you (me)](me)
 
 ## "stuff"
 {{< stuff-list >}}
