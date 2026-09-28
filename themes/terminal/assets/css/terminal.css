@@ -26,8 +26,9 @@
   --foreground: #3b2b03;
   --accent: #4a3476;
   --radius: 2px;
-  --font-size: 1.25rem;
+  --font-size: 1.2rem;
   --line-height: 1.4em;
+  --code-size: calc(0.75 * var(--font-size));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -303,7 +304,7 @@ kbd {
   color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
   padding: 0 6px;
   margin: 0 2px;
-  font-size: 0.85em;
+  font-size: var(--code-size);
 }
 
 code {
