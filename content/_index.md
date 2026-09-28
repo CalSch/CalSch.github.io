@@ -6,6 +6,8 @@ title='Home'
 
 I got stuff:
 
+# warning: lots of these links dont work bc im reworking my website backend
+
 ## Projects (kinda sorted old -> new)
 1. [Old bad raytracing with JavaScript](https://calschwick.net/raytracing-web/)
 2. [Number of the day (doesn't work bc of CORS, so sad)](https://calschwick.net/notd/)
@@ -17,7 +19,7 @@ I got stuff:
 1. [Terminal file explorer](projects/explorer)
 10. [Terminal Cube](projects/term-cube)
 7. [Confetti](projects/confetti)
-9. [6502 PASM (6502 Portable Assembler)](https://calschwick.net/6502pasm/)
+9. [6502 PASM (6502 Portable Assembler)](projects/6502pasm)
 10. [cardcalc, an RPN calculator for the M5Stack Cardputer](https://calschwick.net/cardcalc/)
 10. [Fan-C](projects/fan-c)
 10. [Real WEBP](projects/real-webp)
