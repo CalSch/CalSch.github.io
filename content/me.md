@@ -44,7 +44,7 @@ i am calvin. were you even paying attention?
     - ipv6 (there's just too many numbers!)
 - i have [friends](https://en.wikipedia.org/wiki/Friendship)
     - [brother](https://ahx2.cc/)
-    - [tobert](https://farmertoby3407.github.io/)
+    - [tobert](https://farmertoby3407.github.io/) (TW: lightmode)
 - favorite foods:
     - hardtack
     - methylphenidate
