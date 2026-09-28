@@ -48,6 +48,8 @@ I got stuff:
 - [who are you (me)](me)
 
 ## "stuff"
+(warning: i am lazy and like to write in all lowercase. also i do not proofread these)
+
 {{< stuff-list >}}
 
 ## Links
