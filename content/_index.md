@@ -28,6 +28,7 @@ I got stuff:
 11. [CFS (cool file system)](projects/cfs)
 11. [goo (stack based language)](projects/goo)
 67. [BPU (CPU in Blender geonodes)](projects/bpu)
+41. [realtracing](projects/realtracing)
 
 ## Weird experiments
 1. [Zippatron](projects/zippatron)
