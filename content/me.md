@@ -49,5 +49,31 @@ i am calvin. were you even paying attention?
     - hardtack
     - methylphenidate
     - tax documents
-
-
+- cool people:
+    - tom7 (genius)
+    - sebastian lague (misc. programming, graphics)
+    - acerola (graphics programming)
+    - nir lichtman (low level linux stuff)
+    - vagabondlinux/musashi0814 (low level linux)
+    - premature abstraction (compilers)
+    - greatcorn (asm)
+    - ben eater (electronics, mostly educational)
+    - bitluni (electronics)
+    - mitxela (electronics)
+    - marcin plaza (crafting things)
+    - DiPDoT (making a relay computer)
+    - coco town (old computers, including the titular TRS80 Color Computer)
+    - retro game mechanics explained (self explanatory, though more about technical details than game mechanics)
+    - white pointer gaming (similar; old console technical details)
+    - 100th coin (NES and SMB things)
+    - inkbox (old consoles, low level things)
+    - wye (making SMW in Godot)
+    - jdh (misc. programming, low level stuff)
+- cool people, non-technical:
+    - workshop combanion
+    - standup maths
+    - posy
+    - map men
+    - japhy riddle
+    - jan misali
+    - alpha phoenix
