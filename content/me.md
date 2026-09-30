@@ -69,8 +69,8 @@ i am calvin. were you even paying attention?
     - inkbox (old consoles, low level things)
     - wye (making SMW in Godot)
     - jdh (misc. programming, low level stuff)
-- cool people, non-technical:
-    - workshop combanion
+- cool people, less-technical:
+    - workshop companion
     - standup maths
     - posy
     - map men
