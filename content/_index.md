@@ -60,3 +60,5 @@ I got stuff:
 ---
 
 {{< buttons >}}
+
+the web ring: <a href="https://sreekar617.github.io/" id="webring">next page</a>
