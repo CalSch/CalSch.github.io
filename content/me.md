@@ -35,6 +35,7 @@ i am calvin. were you even paying attention?
     - chickens and their byproducts
     - the UMN raptor center
     - semicolons in written english
+    - homestar runner
 - i dislike things:
     - red hat
     - java
@@ -69,7 +70,7 @@ i am calvin. were you even paying attention?
     - inkbox (old consoles, low level things)
     - wye (making SMW in Godot)
     - jdh (misc. programming, low level stuff)
-- cool people, less-technical:
+- cool people, less technical:
     - workshop companion
     - standup maths
     - posy
